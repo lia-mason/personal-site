@@ -4,7 +4,7 @@ import headerStyles from "./header.module.scss"
 import { useStaticQuery, graphql } from "gatsby"
 
 const Header = () => {
-  const myexamplePdf = useStaticQuery(graphql`
+  const resumePdf = useStaticQuery(graphql`
     {
       pdf: file(name: { eq: "resume" }) {
         name
@@ -24,7 +24,7 @@ const Header = () => {
             <Link to="/contact/" activeClassName={headerStyles.activeMenuItem}>Contact</Link>
           </li>
           <li>
-            <a href={myexamplePdf.pdf.publicURL}>Resume</a>
+            <a href={resumePdf.pdf.publicURL}>Resume</a>
           </li>
         </ul>
       </nav>

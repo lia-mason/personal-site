@@ -7,7 +7,7 @@ const Index = () => {
   return (
     <Layout>
       <div className={indexStyles.imageContainer}>
-        <img src={Hero} alt="Hero Image" className={indexStyles.heroImage}/>
+        <img src={Hero} alt="Hero" className={indexStyles.heroImage}/>
         <div className={indexStyles.topLeft}>
           <p className={indexStyles.subTitle}>Hi, my name is</p>
           <h1>Lia Mason</h1>
