@@ -1,0 +1,32 @@
+$primaryColor: #D35555;
+$secondaryColor: #252525;
+$pinkBackground: #FFE9E2;
+$mainWhite: #fff;
+
+* {
+  box-sizing: border-box;
+}
+body {
+  color: $secondaryColor;
+  font-size: 100%;
+  margin: 0;
+  line-height: 1.2;
+  font-family: "Segoe UI", Roboto, Proxima Nova, "Helvetica Neue", sans-serif;
+}
+h1{
+  margin: 0;
+  color: $primaryColor;
+  font-weight: 700;
+  font-size: 4vw;  
+  letter-spacing: 1.5px;
+}
+h2,
+h3 {
+  font-weight: 400;
+}
+a {
+  color: $primaryColor;
+  text-decoration: none;
+}
+
+  
