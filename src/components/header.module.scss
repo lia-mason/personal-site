@@ -41,13 +41,19 @@ $mainWhite: #fff;
 }
 
 .nav-container {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    width: 100%;
+    position: fixed;
+    // position: absolute;
+    // top: 0;
+    // bottom: 0;
+    // left: 0;
+    // right: 0;
     //background: rgba(255, 255, 255, 0.1);
+    background-color: white;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav-list {
@@ -81,11 +87,10 @@ $mainWhite: #fff;
 }
 
 .logo {
-    letter-spacing: 0.05em;
     background: none;
     padding: 14px 14px 10px;
-    color: $secondaryColor;
-    font-size: 16px;
+    color: $primaryColor;
+    font-size: 1.4vw;
 }
 
 /* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
