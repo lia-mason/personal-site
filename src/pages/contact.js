@@ -4,8 +4,8 @@ import Layout from "../components/layout"
 const Contact = () => {
   return (
     <Layout>
-      <h1>Get In Touch</h1>
-      <p>You can find me on LinkedIn at linkedin.com/in/lia-k-mason</p>
+      <h1>Say Hello</h1>
+      <p>Connect with me! linkedin.com/in/lia-k-mason</p>
     </Layout>
   )
 }
