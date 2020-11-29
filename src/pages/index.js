@@ -14,6 +14,12 @@ const Index = () => {
           <p className={indexStyles.subTitle}>I’m a third year software design student at Queen’s University in Ontario, Canada :)</p>
         </div>
       </div>
+      <div className={indexStyles.pink}>
+      <p className={indexStyles.workTitle}>Summer 2020</p>
+      <hr color="#D35555"></hr>
+      <p className={indexStyles.work}>I interned (remotely) at the startup MindBridge Ai as a junior software developer</p>
+      <p className={indexStyles.work}>•  Contributed to the front end (Angular + TypeScript + HTML + CSS) and back end (Java) of the AI-powered auditor.</p>
+      </div>
     </Layout>
   )
 }

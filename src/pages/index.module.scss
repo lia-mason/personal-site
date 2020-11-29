@@ -1,3 +1,8 @@
+$primaryColor: #D35555;
+$secondaryColor: #252525;
+$pinkBackground: #FFE9E2;
+$mainWhite: #fff;
+
 .hero-image {
     position: relative;
     display: block;
@@ -23,9 +28,26 @@
     }
   }
 
-  .sub-title {
-      //font-size: 24px;
-      font-size: 1.8vw;
-  }
+.sub-title {
+    //font-size: 24px;
+    font-size: 1.8vw;
+}
 
+.workTitle {
+    margin: 50px 50px 0px 50px;
+    font-size: 20px;
+    color: $primaryColor;
+}
+
+.work {
+    margin: 20px 50px 0px 50px;
+    font-size: 18px;
+    color: $primaryColor;
+}
+
+.pink {
+    margin-top: 300px;
+    padding: 40px;
+    background-color: $pinkBackground;
+}
   
