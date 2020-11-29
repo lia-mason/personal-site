@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import Lia from "../images/about-photo.jpeg"
+import Lia from "../images/hike.jpeg"
 import Lia2 from "../images/headshot.png"
 import aboutStyles from "./about.module.scss"
 
