@@ -16,13 +16,13 @@ const Header = () => {
   return (
     <header className={headerStyles.header}>
       <nav className={headerStyles.navContainer}>
-        <Link to="/" className={headerStyles.logo}>Lia Mason :)</Link>
+        <Link to="/" className={headerStyles.logo}>Lia Mason</Link>
         <ul className={headerStyles.navList}>
           <li>
             <Link to="/about/" activeClassName={headerStyles.activeMenuItem}>About</Link>
           </li>
           <li>
-            <Link to="/contact/" activeClassName={headerStyles.activeMenuItem}>Contact</Link>
+            <Link to="/contact/" activeClassName={headerStyles.activeMenuItem}>Contact Info</Link>
           </li>
           <li>
             <a href={resumePdf.pdf.publicURL}>Resume</a>

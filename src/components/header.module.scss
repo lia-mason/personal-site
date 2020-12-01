@@ -67,12 +67,12 @@ $mainWhite: #fff;
     li {
         letter-spacing: 0.02em;
         background: none;
-        padding: 14px 14px 10px;
+        padding: 14px 14px 0px;
     }
 
     a {
         color: $secondaryColor;
-        font-size:20pxw;
+        font-size: 19px;
 
         &:hover {
             color: $primaryColor;
@@ -89,8 +89,8 @@ $mainWhite: #fff;
     background: none;
     padding: 14px 14px 10px 28px;
     color: $primaryColor;
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 24px;
 }
 
 /* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */

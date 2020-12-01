@@ -1,0 +1,28 @@
+$primaryColor: #D35555;
+
+.text {
+    color: $primaryColor;
+}
+
+.coffee {
+    display: inline-block;
+    height: auto;
+    width: 40px;
+    margin: 0px 10px
+}
+
+.underline{
+    border: none;
+    display: block;
+    background-color: #E18A8A;
+    border-radius: 20px;
+    width: 85%;
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    margin: 50px 0 0 0;
+    display: inline-block;
+}
