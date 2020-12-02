@@ -12,6 +12,7 @@ const Contact = () => {
       </div>
       <hr className={contactStyles.underline}/>
       <p className={contactStyles.text}>Reach out to me to chat about anything :)</p>
+      <div></div>
     </Layout>
   )
 }

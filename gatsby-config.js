@@ -6,7 +6,7 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: ["gatsby-plugin-sass", 
+  plugins: [`gatsby-plugin-sass`, 
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -14,5 +14,10 @@ module.exports = {
         path: `${__dirname}/src/data/`,
       },
     },
+    {
+      resolve: `gatsby-plugin-styled-components`,
+    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
   ] 
 }

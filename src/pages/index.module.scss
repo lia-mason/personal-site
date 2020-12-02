@@ -3,35 +3,67 @@ $secondaryColor: #252525;
 $pinkBackground: #FFE9E2;
 $mainWhite: #fff;
 
-.hero-image {
+.wrapper {
     position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    top: 190px;
-    width: 82%;
-    height: auto;
+    height: 0;
+    /* Formula is: (height / width * 100%) */
+    padding-top: calc(1732 / 4456 * 100%);
   }
 
   .image-container {
       position: relative;
-      display: inline-block;
+      background-color: white;
+      //display: inline-block;
       //margin: 0 auto;
-      padding: 30px;
+      padding-top: 90px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-bottom: 100px;
 
       .top-left {
         position: absolute;
+        background-color: white;
         //margin: 0 auto;
-        left: 11%;
-        right: 0;
-        top: 30%;
-        width: 30%;
+        // padding-left: 10%;
+        // right: 0;
+        // padding-top: 25%;
+        padding-top: 0px;
+        padding-left: 90px;
+        padding-right: 600px;
+        padding-bottom: 200px;
     }
+
+    .h-container {
+        background-color: white;
+        display: block;
+        position: relative; 
+        max-width: 350px;
+        width: 100%;
+    }
+
+    .header{
+        position: relative;
+        max-width: 200px;
+        width: 100%;
+    }
+
+    .hero-image {
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        //padding-top: 50px;
+        left: 0;
+        //min-width: 650px;
+        //min-height: 200px;
+        width: 90%;
+        height: auto;
+      }
   }
 
 .sub-title {
     //font-size: 24px;
-    font-size: 1.8vw;
+    font-size: 2vw;
 }
 
 .workTitle {
@@ -48,17 +80,25 @@ $mainWhite: #fff;
 }
 
 .pink {
-    margin-top: 300px;
+    padding-top: 300px;
+    padding-bottom: 100px;
     padding: 40px;
     background-color: $pinkBackground;
 }
 
 .logo {
-    width: 15%;
-    height: 15%;
+    width: 200px;
+    height: auto;
 }
 
 .text {
     margin: 0px 150px;
+}
+
+.block {
+    padding-top: 60px;
+    padding-left: 0px;
+    padding-bottom: 50px;
+    background-color: white;
 }
   

@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
-import Lia from "../images/hiking3.png"
-import Lia2 from "../images/girl.png"
+import Lia from "../images/hike.png"
+import Lia2 from "../images/headshot.png"
 import aboutStyles from "./about.module.scss"
 import Leaf from "../images/leaf.png"
 
@@ -17,9 +17,11 @@ const About = () => {
           <img src={Lia} alt="Hiking" className={aboutStyles.headshot}></img>
           <img src={Lia2} alt="Headshot" className={aboutStyles.headshot}></img>
         </div>
-        <p>I'm in my third year of computer science at Queen's University, specializing in software design.
-          I'm most interested in front-end development, UX & UI design, and technology for social impact!
-        </p>
+        <div className={aboutStyles.textContainer}>
+          <p>I'm currently in my third year of computer science at Queen's University (Kingston, ON, Canada), specializing in software design.
+            I'm most interested in front-end development, UX & UI design, and technology for social impact!
+          </p>
+        </div>
       </Layout>
     )
   }
