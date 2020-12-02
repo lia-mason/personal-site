@@ -1,14 +1,14 @@
 .headshot{
-    margin: 50px 50px;
+    margin: 0px 50px 30px 50px;
     width: 30%;
     height: 30%;
 }
 
 .emoji{
     display: inline-block;
-    height: auto;
-    width: 40px;
-    margin: 0px 10px
+    width: auto;
+    height: 35px;
+    margin: 0px 12px
 }
 
 .underline{
@@ -28,6 +28,8 @@
 }
 
 .imageContainer{
+    padding-top: 50px;
+    background-color: white;
     text-align: center;
     margin-left: auto;
     margin-right: auto;

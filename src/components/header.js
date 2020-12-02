@@ -4,15 +4,15 @@ import headerStyles from "./header.module.scss"
 import { useStaticQuery, graphql } from "gatsby"
 
 const Header = () => {
-  // const resumePdf = useStaticQuery(graphql`
-  //   {
-  //     pdf: file(name: { eq: "resume" }) {
-  //       name
-  //       extension
-  //       publicURL
-  //     }
-  //   }
-  // `)
+  const resumePdf = useStaticQuery(graphql`
+    {
+      pdf: file(name: { eq: "resume" }) {
+        name
+        extension
+        publicURL
+      }
+    }
+  `)
   return (
     <header className={headerStyles.header}>
       <nav className={headerStyles.navContainer}>
@@ -24,9 +24,9 @@ const Header = () => {
           <li>
             <Link to="/contact/" activeClassName={headerStyles.activeMenuItem}>Contact Info</Link>
           </li>
-          {/* <li>
+          <li>
             <a href={resumePdf.pdf.publicURL}>Resume</a>
-          </li> */}
+          </li>
         </ul>
       </nav>
     </header>

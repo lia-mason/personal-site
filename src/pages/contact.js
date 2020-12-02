@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <Layout>
       <div className={contactStyles.container}>
-        <h2>Say Hello</h2>
+        <h2>Say hello</h2>
         <img src={Coffee} alt="Coffee" className={contactStyles.coffee}/>
       </div>
       <hr className={contactStyles.underline}/>

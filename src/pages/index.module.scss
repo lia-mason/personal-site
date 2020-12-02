@@ -3,30 +3,33 @@ $secondaryColor: #252525;
 $pinkBackground: #FFE9E2;
 $mainWhite: #fff;
 
-.wrapper {
-    position: relative;
-    height: 0;
-    /* Formula is: (height / width * 100%) */
-    padding-top: calc(1732 / 4456 * 100%);
+.underline{
+    border: none;
+    background-color: #E18A8A;
+    border-radius: 20px;
+    height: 8px;
+}
+
+  .content {
+      padding-top: 2%;
+      width: 90%;
+      margin: auto;
   }
 
   .image-container {
       position: relative;
       background-color: white;
-      //display: inline-block;
-      //margin: 0 auto;
-      padding-top: 90px;
-      padding-left: 0px;
-      padding-right: 0px;
-      padding-bottom: 100px;
+      display: block;
+      padding-top: 80px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 220px;
 
       .top-left {
         position: absolute;
+        top: 0;
+        left: 0;
         background-color: white;
-        //margin: 0 auto;
-        // padding-left: 10%;
-        // right: 0;
-        // padding-top: 25%;
         padding-top: 0px;
         padding-left: 90px;
         padding-right: 600px;
@@ -37,7 +40,8 @@ $mainWhite: #fff;
         background-color: white;
         display: block;
         position: relative; 
-        max-width: 350px;
+        padding-top: 50px;
+        max-width: 400px;
         width: 100%;
     }
 
@@ -62,37 +66,58 @@ $mainWhite: #fff;
   }
 
 .sub-title {
-    //font-size: 24px;
     font-size: 2vw;
 }
 
 .workTitle {
-    margin: 50px 50px 0px 50px;
+    margin: 50px 0px 0px 10px;
     font-size: 20px;
     font-weight: 600;
     color: $primaryColor;
 }
 
 .work {
-    margin: 20px 50px 0px 50px;
+    margin: 20px 0px 0px 10px;
     font-size: 18px;
     color: $secondaryColor;
 }
 
 .pink {
-    padding-top: 300px;
+    padding-top: 0px;
     padding-bottom: 100px;
-    padding: 40px;
-    background-color: $pinkBackground;
+    padding-left: 30px;
+    padding-right: 30px;
+    //background-color: $pinkBackground;
 }
 
-.logo {
-    width: 200px;
+.white {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: white;
+}
+
+.MB {
+    margin: 20px 0px 0px 10px;
+    width: 22%;
+    height: auto;
+}
+
+.Loblaw {
+    margin: 20px 0px 0px 10px;
+    width: 12%;
+    height: auto;
+}
+
+.CBN {
+    margin: 20px 0px 0px 10px;
+    width: 10%;
     height: auto;
 }
 
 .text {
-    margin: 0px 150px;
+    margin: 0px 140px 0 140px;
 }
 
 .block {
@@ -100,5 +125,11 @@ $mainWhite: #fff;
     padding-left: 0px;
     padding-bottom: 50px;
     background-color: white;
+}
+
+.job {
+    margin: 30px 0px 0px 10px;
+    width: 60%;
+    height: auto;
 }
   
