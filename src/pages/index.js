@@ -17,16 +17,15 @@ const Index = () => {
         <div className={indexStyles.imageContainer}>
             <div className={indexStyles.topLeft}>
                 <div className={indexStyles.hContainer}>
-                <img src={HeroSmall} alt="Hero" className={indexStyles.heroImageMobile}/>
                 <p className={indexStyles.subTitle}>Hi, my name is</p>
                 <h1>Lia</h1>
                 <h1>Mason</h1>
                 <p className={indexStyles.subTitle}>I’m a third year software design student at Queen’s University in Ontario, Canada :)</p>
+                <img src={HeroSmall} alt="Hero" className={indexStyles.heroImageMobile}/>
                 </div>
             </div>
             <div className={indexStyles.block}>
               <img src={Hero} alt="Hero" className={indexStyles.heroImage}/>
-              {/* <img src={HeroSmall} alt="Hero" className={indexStyles.heroImageMobile}/> */}
             </div>
         </div>
         <div className={indexStyles.pink}>
