@@ -19,7 +19,7 @@ h1{
   margin: 0;
   line-height: 1;
   color: $primaryColor;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 7vw;  
   letter-spacing: 1.2px;
 }
@@ -43,15 +43,15 @@ body {
   display: block !important
 }
 
-.hero-image {
-  position: relative;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  top: 140px;
-  width: 90%;
-  height: 90%;
-}
+// .hero-image {
+//   position: relative;
+//   display: block;
+//   margin-left: auto;
+//   margin-right: auto;
+//   top: 140px;
+//   width: 90%;
+//   height: 90%;
+// }
 
 .image-container {
     position: relative;
@@ -69,14 +69,14 @@ body {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 780px) {
 
   h1{
     text-align: center;
     margin: 0;
     line-height: 1;
     color: $primaryColor;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 12vw;  
     letter-spacing: 1.2px;
   }
@@ -92,37 +92,5 @@ body {
     display: flex;
   }
 }
-
-// .sub-title {
-//   font-size: 22px;
-// }
-
-// .workTitle {
-//   margin: 50px 50px 0px 50px;
-//   font-size: 20px;
-//   font-weight: 600;
-//   color: $primaryColor;
-// }
-
-// .work {
-//   margin: 20px 50px 0px 50px;
-//   font-size: 18px;
-//   color: $secondaryColor;
-// }
-
-// .pink {
-//   margin-top: 300px;
-//   padding: 30px;
-//   background-color: $pinkBackground;
-// }
-
-// .logo {
-//   width: 200px;
-//   height: auto;
-// }
-
-// .text {
-//   margin: 0px 150px;
-// }
 
   
