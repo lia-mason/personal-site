@@ -17,19 +17,27 @@ $mainWhite: #fff;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: space-between;
+
+    li {
+        letter-spacing: 0.02em;
+        background: none;
+        padding: 14px 14px 14px 14px;
+        font-size: 18px;
+        list-style: none;
+    }
 }
 
 .nav-list {
     margin: 0;
     display: flex;
     flex-flow: wrap;
-    padding: 0 14px 0 0;
+    padding: 0 14px 0 0px;
     list-style: none;
 
     li {
         letter-spacing: 0.02em;
         background: none;
-        padding: 14px 14px 0px;
+        padding: 14px 14px 14px 14px;
     }
 
     a {
@@ -47,12 +55,45 @@ $mainWhite: #fff;
 }
 
 .logo {
-    letter-spacing: 0.02em;
-    background: none;
-    padding: 14px 14px 10px 28px;
     color: $primaryColor;
-    font-weight: 500;
-    font-size: 23px;
+    font-weight: 600;
+    padding-left: 14px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .nav-container {
+        justify-content: center;
+
+        li {
+            letter-spacing: 0.02em;
+            background: none;
+            padding: 14px 14px 14px 14px;
+            font-size: 14px;
+        }
+    }
+
+    .nav-list{
+        padding: 0px 0px 0px 0px;
+        li {
+            letter-spacing: 0.02em;
+            background: none;
+            padding: 14px 14px 14px 5px;
+        }
+        a {
+            font-size: 14px;
+        }
+    }
+
+    .logo {
+        color: $primaryColor;
+        font-weight: 600;
+        padding-left: 0px;
+    }
+
+    .header {
+        height: 45px;
+    }
 }
 
 /* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */

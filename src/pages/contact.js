@@ -12,7 +12,7 @@ const Contact = () => {
     <Layout>
       <div className={contactStyles.container}>
         <h2>Say hello</h2>
-        <img src={Coffee} alt="Coffee" className={contactStyles.coffee}/>
+        <img src={Coffee} alt="Coffee" className={contactStyles.emoji}/>
       </div>
       <hr className={contactStyles.underline}/>
       <div className={contactStyles.textContainer}>

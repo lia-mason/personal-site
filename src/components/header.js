@@ -16,7 +16,9 @@ const Header = () => {
   return (
     <header className={headerStyles.header}>
       <nav className={headerStyles.navContainer}>
+        <li>
         <Link to="/" className={headerStyles.logo}>Lia Mason</Link>
+        </li>
         <ul className={headerStyles.navList}>
           <li>
             <Link to="/about/" activeClassName={headerStyles.activeMenuItem}>About</Link>
