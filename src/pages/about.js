@@ -21,6 +21,8 @@ const About = () => {
           <p>I'm currently in my third year of computer science at Queen's University (Kingston, ON, Canada), specializing in software design.
             I'm most interested in front-end development, UX & UI design, and technology for social impact!
           </p>
+          <p>Outside of tech, I love art (sketching / oil painting / digital drawing), karaoke, roadtrips, learning about psychology, and creating Spotify playlists.
+          </p>
         </div>
       </Layout>
     )

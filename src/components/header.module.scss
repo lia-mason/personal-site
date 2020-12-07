@@ -60,7 +60,7 @@ $mainWhite: #fff;
     padding-left: 14px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 780px) {
 
     .nav-container {
         justify-content: center;
@@ -89,9 +89,10 @@ $mainWhite: #fff;
         color: $primaryColor;
         font-weight: 600;
         padding-left: 0px;
+        letter-spacing: 0px;
     }
 
     .header {
-        height: 45px;
+        height: 40px;
     }
 }

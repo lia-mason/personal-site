@@ -2,6 +2,7 @@ $primaryColor: #D35555;
 $secondaryColor: #252525;
 $pinkBackground: #FFE9E2;
 $mainWhite: #fff;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 * {
   box-sizing: border-box;
@@ -12,7 +13,8 @@ body {
   font-size: 100%;
   margin: 0;
   line-height: 1.2;
-  font-family: Proxima Nova, Roboto, "Segoe UI", "Helvetica Neue", sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  //font-family: Lato, Proxima Nova, "Segoe UI", "Helvetica Neue", sans-serif;
 }
 
 h1{
@@ -78,7 +80,7 @@ body {
     color: $primaryColor;
     font-weight: 700;
     font-size: 12vw;  
-    letter-spacing: 1.2px;
+    letter-spacing: 0px;
   }
 
   h2 {

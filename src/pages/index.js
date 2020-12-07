@@ -9,6 +9,9 @@ import Loblaws from "../images/loblaw-logo.png"
 import CBN from "../images/CBN-logo.png"
 import Interns from "../images/interns.png"
 import Qmind from "../images/QMIND-logo.png"
+import Wiq1 from "../images/wiq1.png"
+import Wiq2 from "../images/wiq2.png"
+import Wiq3 from "../images/wiq3.png"
 
 const Index = () => {
   return (
@@ -58,6 +61,12 @@ const Index = () => {
             <img src={Qmind} alt="QMIND" className={indexStyles.qmind}></img>
             <p className={indexStyles.jobName}>Co-Chair of Women in QMIND</p>
             <p className={indexStyles.work}>QMIND is Queen’s 200+ member AI & ML organization.</p>
+            <img src={Wiq1} alt="WIQ" className={indexStyles.wiq}></img>
+            <img src={Wiq2} alt="WIQ" className={indexStyles.wiq}></img>
+            <img src={Wiq3} alt="WIQ" className={indexStyles.wiq}></img>
+            <p className={indexStyles.jobName}>Marketing Coordinator for Queen's Women in Computing</p>
+            <p className={indexStyles.jobName}>Graphics Director for Queen's CODE - Canadian NGO promoting children's literacy</p>
+            <p className={indexStyles.jobName}>Logistics Coordinator for Queen's Computing Students' Association (2019-2020)</p>
           </div>
         </div>
       </div>

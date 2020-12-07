@@ -16,7 +16,7 @@ const Contact = () => {
       </div>
       <hr className={contactStyles.underline}/>
       <div className={contactStyles.textContainer}>
-        <p className={contactStyles.text}>Reach out to me to chat about anything :)</p>
+        <p className={contactStyles.text}>Let's connect :)</p>
         <a href="mailto:lia.k.mason@gmail.com">
         <img src={Mail} alt="Email" className={contactStyles.icon}></img>
         </a>
