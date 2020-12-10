@@ -2,7 +2,8 @@ $primaryColor: #D35555;
 $secondaryColor: #252525;
 $pinkBackground: #FFE9E2;
 $mainWhite: #fff;
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 * {
   box-sizing: border-box;
@@ -13,7 +14,8 @@ body {
   font-size: 100%;
   margin: 0;
   line-height: 1.2;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Varela', sans-serif;
+  //font-family: 'Open Sans', sans-serif;
   //font-family: Lato, Proxima Nova, "Segoe UI", "Helvetica Neue", sans-serif;
 }
 
