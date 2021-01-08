@@ -16,13 +16,6 @@ $secondaryColor: #252525;
     padding: 20px 20px 10px 0px;
 }
 
-.emoji {
-    display: inline-block;
-    width: auto;
-    height: 35px;
-    margin: 0px 12px
-}
-
 .underline{
     border: none;
     display: block;
@@ -49,13 +42,4 @@ $secondaryColor: #252525;
         display: flex;
         justify-content: center;
     }
-
-    .emoji{
-        //display: inline-block;
-        width: auto;
-        height: 35px;
-        display: flex;
-        //margin: 0px 12px
-    }
-
 }

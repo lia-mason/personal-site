@@ -1,7 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
 import contactStyles from "./contact.module.scss"
-import Coffee from "../images/coffee.png"
 import Pinterest from "../images/pinterest.svg"
 import LinkedIn from "../images/linkedin-icon.svg"
 import Github from "../images/github.svg"

@@ -3,7 +3,6 @@ import Layout from "../components/layout"
 import Lia from "../images/hike.png"
 import Lia2 from "../images/headshot.png"
 import aboutStyles from "./about.module.scss"
-import Leaf from "../images/leaf.png"
 
 const About = () => {
     return (
