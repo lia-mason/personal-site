@@ -7,7 +7,7 @@ $secondaryColor: #252525;
 
 .textContainer {
     position: relative;
-    padding: 20px 0 0 100px;
+    padding: 20px 0 0 10%;
 }
 
 .icon {
@@ -35,8 +35,7 @@ $secondaryColor: #252525;
 }
 
 .container {
-    margin: 50px 0 0 0;
-    display: inline-block;
+    padding: 50px 0 0 10%;
 }
 
 @media screen and (max-width: 780px) {

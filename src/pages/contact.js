@@ -11,8 +11,8 @@ const Contact = () => {
   return (
     <Layout>
       <div className={contactStyles.container}>
-        <h2>Say hello</h2>
-        <img src={Coffee} alt="Coffee" className={contactStyles.emoji}/>
+        <h2 style={{marginLeft:"0px"}}>Say hello</h2>
+        {/* <img src={Coffee} alt="Coffee" className={contactStyles.emoji}/> */}
       </div>
       <hr className={contactStyles.underline}/>
       <div className={contactStyles.textContainer}>

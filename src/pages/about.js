@@ -9,8 +9,8 @@ const About = () => {
     return (
       <Layout>
         <div className={aboutStyles.container}>
-          <h2>About me</h2>
-          <img src={Leaf} alt="leaf" className={aboutStyles.emoji}></img>
+          <h2 style={{marginLeft:"0px"}}>About me</h2>
+          {/* <img src={Leaf} alt="leaf" className={aboutStyles.emoji}></img> */}
         </div>
         <hr className={aboutStyles.underline}></hr>
         <div className={aboutStyles.imageContainer}>
@@ -21,7 +21,7 @@ const About = () => {
           <p>I'm currently in my third year of computer science at Queen's University (Kingston, ON, Canada), specializing in software design.
             I'm most interested in front-end development, UX & UI design, and technology for social impact!
           </p>
-          <p>Outside of tech, I love art (sketching / oil painting / digital drawing), karaoke, roadtrips, learning about behavioural & social psychology, and curating 100+ different Spotify playlists.
+          <p>Outside of tech, I love art (sketching / oil painting / digital drawing), karaoke, roadtrips, learning about behavioural &amp; social psychology, and curating 100+ different Spotify playlists.
           </p>
         </div>
       </Layout>
