@@ -6,6 +6,12 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: 'Lia Mason',
+    description: 'A personal portfolio website',
+    keywords: 'portfolio,computer science,student',
+    lang: 'en',
+  },
   plugins: [`gatsby-plugin-sass`, 
     {
       resolve: `gatsby-source-filesystem`,
