@@ -12,10 +12,14 @@ import Qmind from "../images/QMIND-logo.png"
 import Wiq1 from "../images/wiq1.png"
 import Wiq2 from "../images/wiq2.png"
 import Wiq3 from "../images/wiq3.png"
+import { Helmet } from "react-helmet"
 
 const Index = () => {
   return (
     <Layout>
+       <Helmet>
+          <title>Lia Mason</title>
+        </Helmet>
       <div className={indexStyles.content}>
         <div className={indexStyles.imageContainer}>
             <div className={indexStyles.topLeft}>
