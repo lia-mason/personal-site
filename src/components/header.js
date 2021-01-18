@@ -6,7 +6,7 @@ import { useStaticQuery, graphql } from "gatsby"
 const Header = () => {
   const resumePdf = useStaticQuery(graphql`
     {
-      pdf: file(name: { eq: "resume" }) {
+      pdf: file(name: { eq: "resume2021" }) {
         name
         extension
         publicURL
